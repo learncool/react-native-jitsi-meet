@@ -38,6 +38,7 @@ android {
 repositories {
   maven {
       url "file:/tmp/jitsi-sdk"
+      // url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
   }
   google()
   mavenCentral()
