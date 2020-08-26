@@ -49,6 +49,7 @@ dependencies {
       exclude group: 'com.facebook.react',module:'react-native-google-signin'
       exclude group: 'com.facebook.react', module:'react-native-webview'
       exclude group: 'com.facebook', module:'hermes'
+      exclude group: 'com.facebook.react',module:'react-native-community-async-storage'
       transitive = true
     }
 }
